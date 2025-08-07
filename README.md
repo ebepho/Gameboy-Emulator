@@ -1,6 +1,6 @@
-CHIP-8 Emulator
+Gameboy Emulator
 
-A simple CHIP-8 emulator written in C.
+A simple Gameboy emulator written in C.
 
 ## Build Instructions
 
@@ -8,7 +8,7 @@ Follow these steps to build and run the project:
 
 
 ```bash
-cd CHIP-8
+cd Gameboy
 ```
 ```bash
 mkdir -p build && cd build
@@ -20,12 +20,12 @@ cmake ..
 make
 ```
 ```bash
-./Chip8
+./Gameboy
 ```
 
 ## Project Structure
 ```
-CHIP-8/
+Gameboy/
 ├── include/
 │   └── context.h
 ├── src/
